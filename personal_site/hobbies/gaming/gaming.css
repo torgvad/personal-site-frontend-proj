@@ -1,0 +1,127 @@
+body, html {
+    font-family: Verdana;
+    min-height: 1500px;
+    height: 100%;
+    margin: 0;
+}
+
+#gaming_page {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    background-color: grey;
+}
+
+#gaming_page_content {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+#game_buttons {
+    max-height: 1200px;
+    max-width: 190px;
+    min-width: 100px;
+    width: 70%;
+    #left: 20%;
+    padding-top: 10%;
+    #margin-left: 5%;
+    #margin-right: 100%;
+}
+
+#game_button_col {
+    #left: 50%;
+    #transform: translate(-50%, -50%);
+    #position: relative;
+}
+
+.btn-group-vertical button {
+    max-height: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: grey;
+    border-width: 3px;
+    background: white;
+}
+
+#siege {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#minecraft {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#overwatch {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#payday2 {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#rising_storm {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#zomboid {
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#rimworld {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#h3vr {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#planetside {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#game_player{
+    width: 100%; 
+    height: auto; 
+    z-index: -100;
+    #background-size: cover;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+#game_content {
+    width: 100%;
+    position: relative;
+}
+
+#game_text {
+    width: 80%;
+    max-width: inherit;
+    position: sticky;
+    margin-top: 5%;
+}
+
+#game_media_col {
+    right: 12%;
+    position: sticky;
+    min-width: 410px;
+}
