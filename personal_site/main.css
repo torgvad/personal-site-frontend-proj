@@ -1,0 +1,148 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.banner {
+    background-image: url("front_image.jpg");
+    height: 40%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 100;
+    
+}
+
+#nav {
+    align-items: stretch;
+    background-color: lightpink;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#contact_button {
+    text-decoration: none;
+    align-content: right;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    color: white;
+    font-weight: 100;
+}
+
+#hobby_button {
+    background-color: blue;
+}
+
+.proj_dropdown {
+    display: relative;
+    display: table-column;
+}
+
+.dropdown-content {
+    color: white;
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+
+#projects {
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: lightgrey;}
+.proj_dropdown:hover .dropdown-content {display: block;}
+
+
+#intro_text {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: aliceblue;
+}
+
+#page_content {
+    background-color: lightgrey;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#intro_title {
+    padding-bottom: 3%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#intro_paragraph {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 16px;
+}
+
+#hobby_and_proj_cell_container {
+    background-color: skyblue;
+    height: 100%;
+    #width: 100%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    #top: 50%;
+    #left: 50%;
+    #transform: translate(20%, -50%);
+}
+
+#a_container {
+    background-color: skyblue;
+    height: 100%;
+}
+
+#hobby_and_proj_cells {
+    #padding-left: 15%;
+    top: 50%;
+    left: 50%;
+    #position: inherit;
+}
+
+#hobby_card_title {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+#hobby_card_text {
+    text-align: center;
+}
+
+#project_card_text {
+    text-align: center;
+}
+
+#project_card_title {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+}

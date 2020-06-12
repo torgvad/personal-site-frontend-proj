@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#contact_page_content {
+    background-color: lightgrey;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#contact_info {
+    padding-top: 15px;
+    background-color: whitesmoke;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#email_box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#phone_box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#github_box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#resume_text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#home_button {
+    text-align: left;
+}
+
+#resume_preview {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    min-width: 280px;
+    height: 1000px;
+    min-height: 400px;
+}
