@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#python_page {
+    padding-left: 10%; 
+    padding-right: 10%; 
+    background-color: grey; 
+    height: 100%;
+}
+
+#python_page_content {
+    background-color: white; 
+    height:100%;
+}
