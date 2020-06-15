@@ -1,10 +1,81 @@
 <!DOCTYPE html>
 <html>
-<body style="height: 100%;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="python.css">
+    </head>
+<body>
     <div id="python_page">
         <div id="python_page_content" >
-            <a>Python projects page</a>
+            <a href="../main.html" id="home_button">Home Page Placeholder</a>
+            <p id="page_title">My Python Projects</p>
+            <p id="warning">I will update projects present here or on any other page of this site when I add a new project. So any project on the site can be outdated. Please check out my other GitHub repositories to see the up to date version</p>
+                        
+            <div class="d-flex flex-fill justify-content-around" id="projects">
+                <div id="projects_row" class="row">
+                    <div class="col-xs-6 col-sm-9 col-md-4 d-flex justify-content-center" id="projects_col"> 
+                        <div class="container" id="capstone_accordion">
+                            <p>This was my senior capstone. It takes a search term and some filters and scrapes the online retailer that the user selected. 
+                                The project was written completely with Python and some MySQL. None of these files are standalone and the full version will have to be downloaded to properly run.
+                                Part of the project is ease of adding new websites for the program to scrape. The full version has a PDF that outlines exactly what someone with even entry-level understanding of Python has to do to add a new site.
+                                RetailerAssistant.py and RetailerAssistantScraper.py are the two main files that make the magin happen, the rest are only used during development when addding new websites.
+                            </p>
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="capstone_heading">
+                                        <h5 class="mb-0 d-inline">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#capstone" aria-expanded="true" aria-controls="capstone">
+                                                Senior Capstone
+                                            </button>
+                                        </h5>
+                                        <a id="capstone_download" href="retailer-assistant-dev.zip">Download Full Version</a>
+
+                                    </div>
+                                    <div id="capstone" class="collapse show" aria-labelledby="capstone_heading" data-parent="#accordion">
+                                        <div class="card-body" id="child1">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a href="#" data-toggle="collapse" data-target="#capstoneDepth" id="retailer-assistant-dev/depth_tester.py" onClick="change_displayed_file(this.id)">depth_tester.py</a>
+                                                </div>
+                                                <div class="card-body collapse" data-parent="child#1" id="collapseOneA"></div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a href="#" data-toggle="collapse" data-target="#capstoneGenerator" id="retailer-assistant-dev/webstyles_generator.py" onClick="change_displayed_file(this.id)">webstyles_generator.py</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a href="#" data-toggle="collapse" data-target="#capstoneScraper" id="retailer-assistant-dev/RetailerAssistantScraper.py" onClick="change_displayed_file(this.id)">RetailerAssistantScraper.py</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a href="#" data-toggle="collapse" data-target="#capstoneAssistant" id="retailer-assistant-dev/RetailerAssistant.py" onClick="change_displayed_file(this.id)">RetailerAssistant.py</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-25 col-sm-10 col-md-8 d-flex justify-content-center" id="file_display_col"> 
+                        <object data="retailer-assistant-dev/depth_tester.py" border="1" type="text/css" id="file_display"></object>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="python.js"></script>
 </body>
 </html>
