@@ -6,10 +6,10 @@ body, html {
 }
 
 #gaming_page {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     height: 100%;
-    background-color: grey;
+    background-color: #393c52;
 }
 
 #gaming_page_content {
@@ -21,7 +21,7 @@ body, html {
 #game_buttons {
     max-height: 1200px;
     max-width: 190px;
-    min-width: 100px;
+    min-width: 105px;
     width: 70%;
     #left: 20%;
     padding-top: 10%;
@@ -121,7 +121,7 @@ body, html {
 }
 
 #game_media_col {
-    right: 12%;
+    right: 20%;
     position: sticky;
-    min-width: 410px;
+    min-width: 310px;
 }
