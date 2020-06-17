@@ -5,10 +5,12 @@ body, html {
 }
 
 .banner {
-    background-image: url("front_image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("front_image.jpg");
+    #background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 80%;
     height: 40%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+    #background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -24,15 +26,24 @@ body, html {
     
 }
 
-#nav {
-    align-items: stretch;
-    background-color: lightpink;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+#hero_title {
+    font-size: 2.7em
 }
 
+#hero_text {
+    font-size: 1.25em;
+}
+
+.hobby_card {
+    margin-bottom: 20%;
+}
+
+#hobby_button {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
 
 #contact_button {
     text-decoration: none;
@@ -43,42 +54,6 @@ body, html {
     color: white;
     font-weight: 100;
 }
-
-#hobby_button {
-    background-color: blue;
-}
-
-.proj_dropdown {
-    display: relative;
-    display: table-column;
-}
-
-.dropdown-content {
-    color: white;
-    text-decoration: none;
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    z-index: 1;
-}
-
-#projects {
-    background-color: blue;
-    color: white;
-    font-size: 16px;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: lightgrey;}
-.proj_dropdown:hover .dropdown-content {display: block;}
-
 
 #intro_text {
     padding-top: 5%;
@@ -114,11 +89,6 @@ body, html {
     #top: 50%;
     #left: 50%;
     #transform: translate(20%, -50%);
-}
-
-#a_container {
-    background-color: skyblue;
-    height: 100%;
 }
 
 #hobby_and_proj_cells {
