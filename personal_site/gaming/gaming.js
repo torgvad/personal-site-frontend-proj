@@ -1,7 +1,7 @@
 function get_game_text(game) {
 	switch (game) {
 		case "siege":
-			return "Rainbow Six Siege is a team based competitive tactical shooter. Similar to TF2 and Overwatch it lets you select an operator to play as, all of which have special abilities and weapons. This is one of my favorite games and one of my most played.";
+			return "Rainbow Six Siege is a team based competitive tactical shooter. Similar to TF2 and Overwatch it lets you select an operator to play as, all of which have special abilities and weapons. This is one of my favorite games and one of my most played. I don't really have a set main but I enjoy playing Iana, Mira, Hibana, and the SAS operators.";
 		case "overwatch": 
 			return "Overwatch is a hero team based shooter. This use to be one of my go to games and I racked up many hours. My main is Pharah. This is also the only game I ever played ranked in. It was only a few matches as I dropped the game fairly soon after. I played as healers as the role lock system was introduced around that time and the DPS queue was like 5-10 minutes. I will eventaully come back to this game but I haven't been in the mood to play it in a long time.";
 		case "payday2":
