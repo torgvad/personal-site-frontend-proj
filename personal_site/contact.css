@@ -15,10 +15,18 @@ body, html {
 
 #contact_info {
     padding-top: 15px;
-    background-color: whitesmoke;
-    height: 100%;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+#page_center {
+    background-color: aliceblue;
+    height: 100%;
+}
+
+#home_button {
+    padding-top: 15px;
+    margin-left: 5%;
 }
 
 #email_box {

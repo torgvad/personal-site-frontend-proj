@@ -12,9 +12,14 @@ body, html {
     background-color: #393c52;
 }
 
+#home_button {
+    padding-top: 15px;
+    margin-left: 5%;
+}
+
 #gaming_page_content {
     width: 100%;
-    background-color: whitesmoke;
+    background-color: aliceblue;
     height: 100%;
 }
 
