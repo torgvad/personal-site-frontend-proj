@@ -42,18 +42,12 @@ body, html {
     border-bottom: black;
     border-style: solid;
     min-width: 285px;
-    #margin-left: .7%;
-    #margin-right: 5%;
     margin-bottom: 20%;
 }
 
 #file_display_col {
     overflow: hidden;
-    #margin-left: 5%; 
-    #transform: translateX(5%);
     padding: 0;
-    #width: 100%;
-    #height: 100%;
 }
 
 #projects_row {

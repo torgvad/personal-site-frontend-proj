@@ -14,14 +14,14 @@
         <div class="banner">
             <a href="contact.html" id="contact_button">Contact me</a>
           <div class="banner-text">
-            <h1>I am Vadim Torgashov</h1>
-            <p>Welcome to my personal website project</p>
+            <h1 id="hero_title">I am Vadim Torgashov</h1>
+            <p id="hero_text">Welcome to my personal website project</p>
           </div>
         </div>
         
         <div id="page_content">
         <div id="intro_text">
-        <p id="intro_title">This is my personal site</p>
+        <p id="intro_title">Obligatory Paragraph Below Hero Image</p>
         <p id="intro_paragraph">This is my first frontend coding project since I graduated. 
             I did some frontend coding in my Web Development class but we typically worked in groups and I typically handled the backend. 
             So this was just a way to shake off the rust and get back into the world of HTML and CSS. 
@@ -39,10 +39,10 @@
 
             <div class="hobby_card" style="width: 18rem;">
               <img class="card-img-top" src="gaming.jpg" alt="Card image cap">
-              <div class="card-body">
+              <div class="card-body" id="card-body">
                 <h5 class="card-title" id="hobby_card_title">Gaming</h5>
                 <p class="card-text" id="hobby_card_text">Some of my favorite games to play.</p>
-                <a href="gaming/gaming.html" class="btn btn-primary">Check out games</a>
+                <a href="gaming/gaming.html" class="btn btn-primary" id="hobby_button">Check out games</a>
               </div>
             </div>
             </div>
@@ -55,7 +55,7 @@
                 <h5 class="card-title" id="project_card_title">Projects</h5>
                 <p class="card-text" id="project_card_text">Some of my coding projects in a variety of languages.</p>
                   
-                <div class="dropdown">
+                <div class="dropdown d-flex justify-content-center">
                   <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Projects Languages
                   </button>

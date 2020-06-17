@@ -6,11 +6,9 @@ body, html {
 
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("front_image.jpg");
-    #background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center 80%;
     height: 40%;
-    #background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -83,19 +81,13 @@ body, html {
 #hobby_and_proj_cell_container {
     background-color: aliceblue;
     height: 100%;
-    #width: 100%;
     padding-top: 100px;
     padding-bottom: 150px;
-    #top: 50%;
-    #left: 50%;
-    #transform: translate(20%, -50%);
 }
 
 #hobby_and_proj_cells {
-    #padding-left: 15%;
     top: 50%;
     left: 50%;
-    #position: inherit;
 }
 
 #hobby_card_title {
@@ -113,7 +105,6 @@ body, html {
 }
 
 #project_card_title {
-    #padding-top: 13%;
     font-weight: bold;
     font-size: 1.6em;
     text-align: center;
