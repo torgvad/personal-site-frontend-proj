@@ -1,6 +1,6 @@
 body, html {
     font-family: Verdana;
-    min-height: 1500px;
+    min-height: 1660px;
     height: 100%;
     margin: 0;
 }
@@ -24,7 +24,7 @@ body, html {
 }
 
 #game_buttons {
-    max-height: 1200px;
+    max-height: 890px;
     max-width: 190px;
     min-width: 105px;
     width: 70%;
@@ -120,3 +120,4 @@ body, html {
     position: sticky;
     min-width: 310px;
 }
+
