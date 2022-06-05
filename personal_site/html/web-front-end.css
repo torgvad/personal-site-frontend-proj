@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    font-family: Verdana;
+    min-height: 100vh;
+}
+
+#html_page {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #393c52;
+}
+
+#html_page_content {
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+
+#home_button {
+    padding-top: 15px;
+    margin-left: 5%;
+}
+
+#page_title {
+    text-align: center;
+    font-size: 2em;
+}
+
+#warning {
+    width: 60%;
+    text-align: center;
+    object-position: center;
+}
+
+#projects_col {
+    font-size: .9em;
+    background-color: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-bottom: black;
+    border-style: solid;
+    min-width: 285px;
+    margin-bottom: 20%;
+}
+
+#file_display_col {
+    margin:auto;
+    object-position: center;
+}
+
+#projects_row {
+    justify-content: space-around;
+    padding-top: 5%;
+    width: 100%;
+    margin: 0;
+}
+
+#file_display {
+    width: 100%;
+    overflow: hidden;
+}
+
+#projects {
+    width: 100%;
+}

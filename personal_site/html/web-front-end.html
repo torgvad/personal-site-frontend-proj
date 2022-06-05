@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="web-front-end.css">
+        <title>Web Front End Projects</title>
+    </head>
+<body>
+    <main class="d-flex" id="html_page">
+        <div id="html_page_content">
+            <div id="home_button">
+                <a href="../main.html">Home</a>
+            </div>
+            <p id="page_title">My Web Front End Projects</p>
+            <div class="container d-flex justify-content-center" id="warning_container">
+                <p id="warning">I will not update projects already placed on this website. Please check the respective GitHub respository to the full and up to date version.</p>
+            </div>
+            
+            <div class="row d-flex justify-content-center" id="file_display_col"> 
+                <img src="brewery.PNG" id="file_display" >
+            </div>
+            
+            <div id="projects">
+                <div id="projects_row" class="row">
+                    <div class="col-xs-6 col-sm-35 col-md-3 col-md-offset-55666 d-flex justify-content-around" id="projects_col"> 
+                        <div class="container" id="capstone_accordion">
+                            <p>After making this web front end I decided to make another. A somewhat humorous website for a fake Cleveland based brewery.
+                            </p>
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="html_heading">
+                                        <h5 class="mb-0 d-block d-flex justify-content-center">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#html" aria-expanded="false" aria-controls="html" id="html_accordion_button">
+                                                Fake Brewery
+                                            </button>
+                                        </h5>
+                                        <a class="d-flex justify-content-center" id="html_download" href="https://github.com/torgvad/web-front-end-fake-brewery/archive/refs/heads/master.zip">Download Current Full Version</a>
+
+                                    </div>
+                                    <div id="html" class="collapse hide" aria-labelledby="html_heading" data-parent="#accordion">
+                                        <div class="card-body" id="child1">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a href="#" data-toggle="collapse" data-target="#htmlMain" id="brewery.PNG" onClick="change_displayed_file(this.id)">main.html</a>
+                                                </div>
+                                                <div class="card-body collapse" data-parent="child#1" id="collapseOneA"></div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a href="#" data-toggle="collapse" data-target="#htmlNews" id="brewery_news.PNG" onClick="change_displayed_file(this.id)">news.html</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a href="#" data-toggle="collapse" data-target="#htmlOperations" id="brewery_op.PNG" onClick="change_displayed_file(this.id)">operations.html</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="web-front-end.js"></script>
+</body>
+</html>
